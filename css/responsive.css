@@ -1,24 +1,49 @@
-@media screen and (max-width: 1400px){
-    header .social_medias .social_medias_container_for_space_beetween{
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 991px){
-    header .social_medias div div{
-        width: 2%;
+@media screen and (max-width: 992px){
+    .header-logo svg{
+        width: 20%;
     }
 
-    header nav div ul li a{
-        font-size: 12px !important;
+    .header-social_medias svg path{
+        fill: #000;
     }
 
-    header .container_header{
+    .header-social_medias svg{
+        width: 3%;
+    }
+
+    .header-social_medias{
+        background-color: yellow;
+    }
+
+    .header-logo svg path{
+        fill: yellow;
+    }
+
+    .header-menu{
+        margin-left: 2%;
+        text-align: left;
+    }
+
+    .header-menu .navbar-nav{
+        width: 98%;
+    }
+
+    .header-menu .active{
         width: 100%;
+        background-color: yellow;
     }
 
-    header .container_header ul~div{
-        width: 100%;    
-        margin: 0;
+    .header-menu ul ul{
+        background-color: yellow !important;
+    }
+
+    .header-social_medias svg path{
+        transform: scale(0.9);
+        transition: all 0.3s;
+    }
+
+    .header-social_medias svg:hover path{
+        fill: black;
+        transform: scale(1);
     }
 }

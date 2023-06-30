@@ -1,62 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
- * {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
 
-/* On s'occupe du header */
 header{
-    background-color: #000;
+    background-color: black;
 }
 
-header .logo{
-    width: 20%;
+/* .header-menu{
+    background-color: aqua;
 }
 
-header .logo svg{
+.header-logo{
+    background-color: blue;
+}
+
+.header-social_medias{
+    background-color: brown;
+} */
+
+.header-menu .active{
+    background-color: #FFF;
+    color: black !important;
+    border-radius: 5px;
+    width: min-content;
+}
+
+.header-menu{
+    text-align: center;
+}
+
+.header-logo svg{
     width: 100%;
 }
 
-header .logo svg path{
-    fill:#FFF;
-}
-
-header .social_medias{
-    width: 40%;
-}
-
-header .social_medias div div svg path{
+.header-logo svg path{
     fill: #FFF;
 }
 
-header .social_medias .social_medias_container_for_space_beetween{
-    width: 45%;
+.header-social_medias svg path{
+    fill: #FFF;
 }
 
-header .menu li a{
+.header-menu-item a{
     color: #FFF !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
 }
 
-header .menu{
-    width: 40%;
+.header-menu-item .dropdown-item{
+    color: black !important;
 }
 
-header .menu li .active{
-    display: block;
-    color: #000 !important;
-    background-color: #FFF;
-    border-radius: 10%;
+.header-menu-item .dropdown-menu li a:hover{
+    background-color: black !important;
+    color: #FFF !important;
 }
 
-header nav div ul ul{
-    background-color: #000 !important;
+.header-social_medias svg:hover path{
+    fill: yellow;
 }
-
-header nav div ul ul li:hover a{
-    color: #000 !important;
-}
-
-/* On s'occupe du header */
