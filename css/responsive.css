@@ -1,0 +1,24 @@
+@media screen and (max-width: 1400px){
+    header .social_medias .social_medias_container_for_space_beetween{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .social_medias div div{
+        width: 2%;
+    }
+
+    header nav div ul li a{
+        font-size: 12px !important;
+    }
+
+    header .container_header{
+        width: 100%;
+    }
+
+    header .container_header ul~div{
+        width: 100%;    
+        margin: 0;
+    }
+}

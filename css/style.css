@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+/* On s'occupe du header */
+header{
+    background-color: #000;
+}
+
+header .logo{
+    width: 20%;
+}
+
+header .logo svg{
+    width: 100%;
+}
+
+header .logo svg path{
+    fill:#FFF;
+}
+
+header .social_medias{
+    width: 40%;
+}
+
+header .social_medias div div svg path{
+    fill: #FFF;
+}
+
+header .social_medias .social_medias_container_for_space_beetween{
+    width: 45%;
+}
+
+header .menu li a{
+    color: #FFF !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+header .menu{
+    width: 40%;
+}
+
+header .menu li .active{
+    display: block;
+    color: #000 !important;
+    background-color: #FFF;
+    border-radius: 10%;
+}
+
+header nav div ul ul{
+    background-color: #000 !important;
+}
+
+header nav div ul ul li:hover a{
+    color: #000 !important;
+}
+
+/* On s'occupe du header */
