@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,18 +8,6 @@
 header{
     background-color: black;
 }
-
-/* .header-menu{
-    background-color: aqua;
-}
-
-.header-logo{
-    background-color: blue;
-}
-
-.header-social_medias{
-    background-color: brown;
-} */
 
 .header-menu .active{
     background-color: #FFF;
@@ -58,4 +47,73 @@ header{
 
 .header-social_medias svg:hover path{
     fill: yellow;
+}
+
+.wall{
+    height: 350px;
+}
+
+.discount{
+    background-color: yellow;
+}
+
+.discount-p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.shoes-article-name{
+    right: 35%;
+    top: 7%;
+    background-color: yellow;
+    line-height: 40px;
+    text-align: center;
+    transform: rotate(10deg);
+    width: 30%;
+    box-shadow: 6px 6px black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    z-index: 1;
+}
+
+.shoes-article-price{
+    background-color: yellow;
+    width: 7vw;
+    line-height: 7vw;
+    box-shadow: 6px 6px black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    left: 7%;
+    transform: rotate(-10deg);
+    z-index: 1;
+}
+
+.shoes-article-img{
+    filter: grayscale(100);
+    transform: scale(90%);
+    transition: all 0.5s;
+}
+
+.shoes-article:hover .shoes-article-img{
+    filter: none;
+    transform: scale(100%);
+}
+
+.footer-logo{
+    background-color: yellow;
+}
+
+.footer-slogan{
+    background-color: black;
+}
+
+.footer-slogan p{
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
 }

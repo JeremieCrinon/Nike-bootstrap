@@ -46,4 +46,38 @@
         fill: black;
         transform: scale(1);
     }
+
+    .shoes-article-price{
+        width: 10vw;
+        line-height: 10vw;
+    }
+
+    .footer-logo-svg{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .shoes-article-price{
+        width: 12vw; 
+        line-height: 12vw;
+        top: 3%;
+    }
+
+    .shoes-article-name{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .shoes-article-name{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .shoes-article-price{
+        width: 20vw;
+        line-height: 20vw;
+    }
 }
